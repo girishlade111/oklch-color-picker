@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/oklch-color-picker',
   eslint: {
     ignoreDuringBuilds: true,
   },
